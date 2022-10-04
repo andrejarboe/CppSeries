@@ -97,6 +97,8 @@ int main() {
 	*	you can does the with header files
 	* 
 	* use #pragma once to include .h in a single translation unit
+	*	.h is from c++
+	*	no extension is from c
 	*/
 	InitLog();
 	Log("Lets go!!");
