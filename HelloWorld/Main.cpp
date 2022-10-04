@@ -103,6 +103,21 @@ int main() {
 	InitLog();
 	Log("Lets go!!");
 
+	/*
+	* Debugging 
+	*/
+	int cc = 8;
+	cc++;
+	const char* string = "Hello";
+
+	for (int i = 0; i < 5; i++) {
+		const char c = string[i];
+		std::cout << c << std::endl;
+
+	}
+
+	Log("Hola World!!!!!!!!!!!!");
+
 	//wait for enter
 	std::cin.get();
 }
