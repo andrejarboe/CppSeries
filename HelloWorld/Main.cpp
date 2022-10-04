@@ -89,6 +89,14 @@ int main() {
 	MultiplyAndLog(90, 45);
 
 
+	/*
+	* header files
+	* used to declare types of functions in a common place
+	*	every files that uses the function needs to be told it esist
+	*	you can does the with header files
+	*/
+
+
 	//wait for enter
 	std::cin.get();
 }
