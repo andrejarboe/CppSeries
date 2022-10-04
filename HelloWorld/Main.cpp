@@ -93,8 +93,10 @@ int main() {
 	/*
 	* header files
 	* used to declare types of functions in a common place
-	*	every files that uses the function needs to be told it esist
+	*	every files that uses the function needs to be told it exist
 	*	you can does the with header files
+	* 
+	* use #pragma once to include .h in a single translation unit
 	*/
 	InitLog();
 	Log("Lets go!!");
