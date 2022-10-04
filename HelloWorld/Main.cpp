@@ -53,6 +53,10 @@ int main() {
 		long usually 4
 		long long usually 8
 		all can be unsigned
+
+		decimals have floats 4 bytes and doubles 8 bytes
+		float var = 5.5f
+		double var = 5.2
 	*/
 
 	int var = 8; // data size -2b - 2b
