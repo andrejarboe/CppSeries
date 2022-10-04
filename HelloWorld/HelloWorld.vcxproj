@@ -132,6 +132,7 @@
     <ClCompile Include="Math.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Common.h" />
     <ClInclude Include="EndBrace.h" />
     <ClInclude Include="Log.h" />
   </ItemGroup>
