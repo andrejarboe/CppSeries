@@ -79,6 +79,11 @@ int main() {
 	std::cout << var << std::endl;
 
 	//Functions
+	/*
+	*	functions need to return a value unless function is void
+	*		but will not show err in release, only in debug
+	*	make a function when you are redoing a common task
+	*/
 	MultiplyAndLog(3, 2);
 	MultiplyAndLog(8, 5);
 	MultiplyAndLog(90, 45);
