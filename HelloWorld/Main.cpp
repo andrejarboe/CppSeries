@@ -1,10 +1,11 @@
-//preprocessor
 /*
 	#include <iostream>
 	brings in cin and cout
 	pick a platform
 	pick debug or release to compile to 
 */
+
+//preprocessor
 #include <iostream>
 
 int main() {
@@ -14,6 +15,8 @@ int main() {
 	std::cin.get();
 
 	/*
-		
+		header files get included into .cpp files
+		.cpp files get compiled individually into object files
+		the linker then glues all the .obj files into a .exe 
 	*/
 }
