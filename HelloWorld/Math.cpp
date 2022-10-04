@@ -1,5 +1,8 @@
-int Multiple(int a, int b) {
-	int result = a * b;
+#include <iostream>
+const char* Log(const char* message) {
+	return message;
+}
 
-	return result;
-#include "EndBrace.h"
+
+#if 1
+#endif

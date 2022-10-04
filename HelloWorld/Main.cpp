@@ -12,14 +12,17 @@
 // it just trust us that the Log function exist
 // The linker will go find it
 void Log(const char* message);
+//void Multiply(int a, int b);
+
+//static says that this function is only declared for translation unit
+static int Multiply(int a, int b) {
+	int result = a * b;
+
+	Log("Multiply");
+	return result;
+}
 
 int main() {
-	//std::cout.print("Hello World!!!").print(std::endl);
-	std::cout << "Hello World!!!" << std::endl;
-	Log("Hello from Log function");
-	//wait for enter
-	std::cin.get();
-
 	/*
 		header files get included into .cpp files
 		.cpp files get compiled individually into object files
@@ -29,4 +32,38 @@ int main() {
 			just make an .opj file
 			build will make .exe
 	*/
+
+	//std::cout.print("Hello World!!!").print(std::endl);
+	std::cout << "Hello World!!!" << std::endl;
+	Log("Hello from Log function");
+
+	std::cout << Multiply(5, 8) << std::endl;
+
+	/*
+		1 byte is 8 bits
+		4 bytes is 32bits
+		int is signed so one of the 32 bits is the + or - sign
+		31 bits left for the data
+		2^31 = 2.1b and can say + or - 
+		unsigned int is always + thus has 32bits
+		2^32 = 4.29b
+		char 2 bytes
+		short 2
+		int 4
+		long usually 4
+		long long usually 8
+		all can be unsigned
+	*/
+
+	int var = 8; // data size -2b - 2b
+	std::cout << var << std::endl;
+
+	var = 20;
+	std::cout << var << std::endl;
+
+
+	
+
+	//wait for enter
+	std::cin.get();
 }
