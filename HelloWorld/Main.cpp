@@ -8,9 +8,10 @@
 //preprocessor
 #include <iostream>
 
-void Log(const char* message) {
-	std::cout << message << std::endl;
-}
+//Have to tell compiler that Log function exist with a declaration
+// it just trust us that the Log function exist
+// The linker will go find it
+void Log(const char* message);
 
 int main() {
 	//std::cout.print("Hello World!!!").print(std::endl);
@@ -25,7 +26,7 @@ int main() {
 		the linker then glues all the .obj files into a .exe 
 		compile with ctrl f7 of compile button
 			no linking happens when you compile a single file
-			just mkaea an .opj file
-		build 
+			just make an .opj file
+			build will make .exe
 	*/
 }
