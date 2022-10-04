@@ -67,6 +67,7 @@ int main() {
 		but you can only address bytes
 		but you can be smart and store 8 bools in 1 byte
 
+		sizeof() tells you the size of the var
 	*/
 
 	int var = 8; // data size -2b - 2b
