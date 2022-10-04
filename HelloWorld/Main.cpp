@@ -7,11 +7,12 @@
 
 //preprocessor
 #include <iostream>
+#include "Log.h"
 
 //Have to tell compiler that Log function exist with a declaration
 // it just trust us that the Log function exist
 // The linker will go find it
-void Log(const char* message);
+void Log(const char* message); 
 //void Multiply(int a, int b);
 
 //static says that this function is only declared for translation unit
@@ -95,7 +96,8 @@ int main() {
 	*	every files that uses the function needs to be told it esist
 	*	you can does the with header files
 	*/
-
+	InitLog();
+	Log("Lets go!!");
 
 	//wait for enter
 	std::cin.get();
