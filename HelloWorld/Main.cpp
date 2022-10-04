@@ -57,6 +57,16 @@ int main() {
 		decimals have floats 4 bytes and doubles 8 bytes
 		float var = 5.5f
 		double var = 5.2
+
+		bool
+		either true or false
+		0 = false
+		any number ! = 0 is true
+
+		yes 0 and 1 take up one bit
+		but you can only address bytes
+		but you can be smart and store 8 bools in 1 byte
+
 	*/
 
 	int var = 8; // data size -2b - 2b
