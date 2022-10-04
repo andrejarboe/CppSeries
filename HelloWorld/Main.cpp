@@ -16,10 +16,12 @@ void Log(const char* message);
 
 //static says that this function is only declared for translation unit
 static int Multiply(int a, int b) {
-	int result = a * b;
+	return a * b;
+}
 
-	Log("Multiply");
-	return result;
+void MultiplyAndLog(int a, int b) {
+	int result = Multiply(a, b);
+	std::cout << result << std::endl;
 }
 
 int main() {
@@ -76,8 +78,11 @@ int main() {
 	var = 20;
 	std::cout << var << std::endl;
 
+	//Functions
+	MultiplyAndLog(3, 2);
+	MultiplyAndLog(8, 5);
+	MultiplyAndLog(90, 45);
 
-	
 
 	//wait for enter
 	std::cin.get();
