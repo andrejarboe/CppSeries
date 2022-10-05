@@ -125,6 +125,10 @@ int main() {
 		Log("Hola World!!!!!!!!!!!!");
 	}
 
+
+	if (x == 5)
+		Log("x = 5");
+
 	//wait for enter
 	std::cin.get();
 }
