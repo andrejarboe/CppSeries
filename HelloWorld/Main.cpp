@@ -113,10 +113,17 @@ int main() {
 	for (int i = 0; i < 5; i++) {
 		const char c = string[i];
 		std::cout << c << std::endl;
-
 	}
 
-	Log("Hola World!!!!!!!!!!!!");
+
+
+	//Condidtions
+	int x = 5;
+	// check if 2 ints are equal 
+	bool comparisonReslt = x == 5;
+	if (comparisonReslt == true) {
+		Log("Hola World!!!!!!!!!!!!");
+	}
 
 	//wait for enter
 	std::cin.get();
