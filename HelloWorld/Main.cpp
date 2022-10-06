@@ -129,6 +129,11 @@ int main() {
 	if (x == 5)
 		Log("x = 5");
 
+	int y = 0;
+	if (y)
+		Log("y = 0");
+
+
 	//wait for enter
 	std::cin.get();
 }
