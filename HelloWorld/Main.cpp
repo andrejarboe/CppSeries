@@ -134,16 +134,28 @@ int main() {
 		Log("y = 0");
 
 	//loops
+	// use foor wen you need to use a variable
+	//	do the loop a countable number of times 
+	//  or want to us the var in the loop
 	// variable declaration; condition; call this before the next iteration of loop:
 	for (int i = 0; i < 5; i++) {
 		Log("Hello Loop!!!");
 	}
 
+	//use while when all you need is a condition.
 	int i = 0;
 	while (i < 5) {
 		Log("While Loop");
 		i++;
 	}
+
+	// do while
+	// yuck 
+	i = 0;
+	do {
+		Log("do while");
+		i++;
+	} while (i < 5);
 
 
 	//wait for enter
