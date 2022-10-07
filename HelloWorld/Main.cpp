@@ -133,6 +133,11 @@ int main() {
 	if (y)
 		Log("y = 0");
 
+	//loops
+	for (int i = 0; i < 5; i++) {
+		Log("Hello Loop!!!");
+	}
+
 
 	//wait for enter
 	std::cin.get();
