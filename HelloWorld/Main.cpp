@@ -134,8 +134,15 @@ int main() {
 		Log("y = 0");
 
 	//loops
+	// variable declaration; condition; call this before the next iteration of loop:
 	for (int i = 0; i < 5; i++) {
 		Log("Hello Loop!!!");
+	}
+
+	int i = 0;
+	while (i < 5) {
+		Log("While Loop");
+		i++;
 	}
 
 
