@@ -8,6 +8,7 @@
 //preprocessor
 #include <iostream>
 #include "Log.h"
+using namespace std;
 
 //Have to tell compiler that Log function exist with a declaration
 // it just trust us that the Log function exist
@@ -156,6 +157,16 @@ int main() {
 		Log("do while");
 		i++;
 	} while (i < 5);
+
+	// control flow
+	for (int n = 0; n < 5; n++) {
+		if (n % 2 == 0) {
+			continue;
+		}
+		Log("N Loop!!!");
+		std::cout <<  n << std::endl;
+
+	}
 
 
 	//wait for enter
