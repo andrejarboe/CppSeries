@@ -168,6 +168,17 @@ int main() {
 
 	}
 
+	for (int i = 0; i < 5; i++) {
+		if (i > 2 ){
+			break;//stop
+			//return 0; sends 0 and stops
+			// return can be anywhere
+			// this can produce dead code if you never run the line after it. 
+		}
+		Log("I Loop!!!");
+		std::cout << i << std::endl;
+	}
+
 
 	//wait for enter
 	std::cin.get();
