@@ -6,6 +6,7 @@ int main() {
 
 	/*
 	* Raw pointers
+	* a pointer just points to a location in memory
 	* memory is the most important thing on the computer
 	* pointers help manage and manipulate memory
 	* memory is like one long street of houses
@@ -21,5 +22,18 @@ int main() {
 	//now var = 10
 	*ptr = 10;
 	LOG(var);
+
+	//the heap
+	// hey can you allocate some memory for me please
+	// allocates 8 bytes of memory:
+	char* buffer = new char[8];
+
+	//fills a block of memory
+	// pointer, value, size in bytes
+	memset(buffer, 0, 8);
+
+	//this is on the heap so you should delete it when finished.
+	delete[] buffer;
+
 	std::cin.get();
 }
