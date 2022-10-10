@@ -36,6 +36,9 @@
     <ClCompile Include="Static.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LearnHeaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Log.h">
