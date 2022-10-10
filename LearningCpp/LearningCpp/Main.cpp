@@ -228,7 +228,7 @@ int main() {
 
 
 	ConsoleLog consoleLog;
-	//consoleLog.SetLevel(consoleLog.LogLevelWarning);
+	//consoleLog.SetLevel(consoleLog.LogLevelError);
 	consoleLog.Warn("Hello");
 	consoleLog.Error("Hello");
 	consoleLog.Info("Hello");
