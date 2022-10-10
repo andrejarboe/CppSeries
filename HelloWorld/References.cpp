@@ -14,6 +14,7 @@ void References() {
 	LOG("From Reference:");
 
 	int a = 5;
+	int b = 8;
 
 	//// make a ref
 	//// note & is apart of the type
@@ -23,6 +24,21 @@ void References() {
 	IncrementReference(a);
 	LOG(a);
 
-	std::cin.get();
 
+	LOG("Reference destructing");
+	// can not change the ref 
+	// also have to assign it on the same line
+	a = 5;
+	int* ref = &a;
+	*ref = 2;
+	ref = &b;
+	*ref = 1;
+
+	LOG(a);
+	LOG(b);
+
+
+
+
+	std::cin.get();
 }
