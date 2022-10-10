@@ -37,7 +37,7 @@ public:
 	const int LogLevelWarning = 1;
 	const int LogLevelInfo = 2;
 private:
-	int m_LogLevel;
+	int m_LogLevel = LogLevelInfo;
 
 public:
 	void SetLevel(int level) {
@@ -228,8 +228,11 @@ int main() {
 
 
 	ConsoleLog consoleLog;
-	consoleLog.SetLevel(consoleLog.LogLevelWarning);
+	//consoleLog.SetLevel(consoleLog.LogLevelWarning);
 	consoleLog.Warn("Hello");
+	consoleLog.Error("Hello");
+	consoleLog.Info("Hello");
+
 
 
 	//wait for enter
