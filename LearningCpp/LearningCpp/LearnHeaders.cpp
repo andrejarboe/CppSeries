@@ -8,15 +8,7 @@ void Log(const char* message);
 //void Multiply(int a, int b);
 
 
-//static says that this function is only declared for translation unit
-static int Multiply(int a, int b) {
-	return a * b;
-}
 
-void MultiplyAndLog(int a, int b) {
-	int result = Multiply(a, b);
-	std::cout << result << std::endl;
-}
 
 void LearnHeaders() {
 	Log("****Output form LearnHeaders.cpp****");
@@ -34,7 +26,6 @@ void LearnHeaders() {
 	std::cout << "Hello World!!!" << std::endl;
 	Log("Hello from Log function");
 
-	std::cout << Multiply(5, 8) << std::endl;
 
 
 	/*
