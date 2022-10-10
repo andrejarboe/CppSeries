@@ -32,6 +32,10 @@ int main() {
 	// pointer, value, size in bytes
 	memset(buffer, 0, 8);
 
+	//pointer are just variables
+	// therefore pointers can point to pointers.
+	char** ptr = &buffer;
+
 	//this is on the heap so you should delete it when finished.
 	delete[] buffer;
 
