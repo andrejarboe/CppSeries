@@ -40,5 +40,4 @@ void References() {
 
 
 
-	std::cin.get();
 }
