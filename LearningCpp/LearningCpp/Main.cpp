@@ -8,7 +8,6 @@
 //preprocessor
 #include <iostream>
 #include "Log.h"
-//#include "References.cpp"
 using namespace std;
 
 //Have to tell compiler that Log function exist with a declaration
@@ -29,6 +28,7 @@ void MultiplyAndLog(int a, int b) {
 
 void Pointers();
 void References();
+void PlayerClass();
 
 
 int main() {
@@ -197,6 +197,7 @@ int main() {
 	Pointers();
 	References();
 
+	PlayerClass();
 
 
 	//wait for enter
