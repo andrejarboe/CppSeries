@@ -14,6 +14,7 @@ using namespace std;
 //functions from videos
 void LearnHeaders();
 void fromFunctions();
+void LearnDebug();
 void Sizes();
 void Pointers();
 void References();
@@ -57,19 +58,7 @@ int main() {
 	Sizes();
 	fromFunctions();
 
-	/*
-	* Debugging
-	*/
-	int cc = 8;
-	cc++;
-	const char* string = "Hello";
-
-	for (int i = 0; i < 5; i++) {
-		const char c = string[i];
-		std::cout << c << std::endl;
-	}
-
-
+	LearnDebug();
 
 	//Conditions
 	int x = 5;

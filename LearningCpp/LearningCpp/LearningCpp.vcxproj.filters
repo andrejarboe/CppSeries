@@ -45,6 +45,9 @@
     <ClCompile Include="Sizes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LeanDebug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Log.h">

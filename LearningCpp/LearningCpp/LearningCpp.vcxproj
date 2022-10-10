@@ -130,6 +130,7 @@
     <ClCompile Include="Classes.cpp" />
     <ClCompile Include="Classes.h" />
     <ClCompile Include="Functions.cpp" />
+    <ClCompile Include="LeanDebug.cpp" />
     <ClCompile Include="LearnHeaders.cpp" />
     <ClCompile Include="Log.cpp" />
     <ClCompile Include="Main.cpp" />
