@@ -2,7 +2,8 @@
 
 #define LOG(x) std::cout << x << std::endl;
 
-int main() {
+void Pointers() {
+	LOG("****From Pointers.cpp*****");
 
 	/*
 	* Raw pointers
@@ -11,7 +12,7 @@ int main() {
 	* pointers help manage and manipulate memory
 	* memory is like one long street of houses
 	* each house has an address or one byte
-	* you need to read and write to the correct address or byte	
+	* you need to read and write to the correct address or byte
 	* a pointer does not need a type but it helps us know what should be there
 	*/
 
@@ -34,10 +35,8 @@ int main() {
 
 	//pointer are just variables
 	// therefore pointers can point to pointers.
-	char** ptr = &buffer;
+	char** ptr2 = &buffer;
 
 	//this is on the heap so you should delete it when finished.
 	delete[] buffer;
-
-	std::cin.get();
 }

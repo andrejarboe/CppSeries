@@ -2,7 +2,7 @@
 	#include <iostream>
 	brings in cin and cout
 	pick a platform
-	pick debug or release to compile to 
+	pick debug or release to compile to
 */
 
 //preprocessor
@@ -14,7 +14,7 @@ using namespace std;
 //Have to tell compiler that Log function exist with a declaration
 // it just trust us that the Log function exist
 // The linker will go find it
-void Log(const char* message); 
+void Log(const char* message);
 //void Multiply(int a, int b);
 
 //static says that this function is only declared for translation unit
@@ -27,6 +27,7 @@ void MultiplyAndLog(int a, int b) {
 	std::cout << result << std::endl;
 }
 
+void Pointers();
 void References();
 
 
@@ -34,7 +35,7 @@ int main() {
 	/*
 		header files get included into .cpp files
 		.cpp files get compiled individually into object files
-		the linker then glues all the .obj files into a .exe 
+		the linker then glues all the .obj files into a .exe
 		compile with ctrl f7 of compile button
 			no linking happens when you compile a single file
 			just make an .opj file
@@ -52,7 +53,7 @@ int main() {
 		4 bytes is 32bits
 		int is signed so one of the 32 bits is the + or - sign
 		31 bits left for the data
-		2^31 = 2.1b and can say + or - 
+		2^31 = 2.1b and can say + or -
 		unsigned int is always + thus has 32bits
 		2^32 = 4.29b
 		char 2 bytes
@@ -100,7 +101,7 @@ int main() {
 	* used to declare types of functions in a common place
 	*	every files that uses the function needs to be told it exist
 	*	you can does the with header files
-	* 
+	*
 	* use #pragma once to include .h in a single translation unit
 	*	.h is from c++
 	*	no extension is from c
@@ -109,7 +110,7 @@ int main() {
 	Log("Lets go!!");
 
 	/*
-	* Debugging 
+	* Debugging
 	*/
 	int cc = 8;
 	cc++;
@@ -168,12 +169,12 @@ int main() {
 			continue;
 		}
 		Log("N Loop!!!");
-		std::cout <<  n << std::endl;
+		std::cout << n << std::endl;
 
 	}
 
 	for (int i = 0; i < 5; i++) {
-		if (i > 2 ){
+		if (i > 2) {
 			break;//stop
 			//return 0; sends 0 and stops
 			// return can be anywhere
@@ -190,10 +191,10 @@ int main() {
 	* memory is like one long street of houses
 	* each house has an address or one byte
 	* you need to read and write to the correct address or byte
-	* 
+	*
 	*/
 
-
+	Pointers();
 	References();
 
 
