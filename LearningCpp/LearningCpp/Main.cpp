@@ -16,6 +16,7 @@ void LearnHeaders();
 void fromFunctions();
 void LearnDebug();
 void Sizes();
+void Conditions();
 void Pointers();
 void References();
 void PlayerClass();
@@ -59,22 +60,7 @@ int main() {
 	fromFunctions();
 
 	LearnDebug();
-
-	//Conditions
-	int x = 5;
-	// check if 2 ints are equal 
-	bool comparisonReslt = x == 5;
-	if (comparisonReslt == true) {
-		Log("Hola World!!!!!!!!!!!!");
-	}
-
-
-	if (x == 5)
-		Log("x = 5");
-
-	int y = 0;
-	if (y)
-		Log("y = 0");
+	Conditions();
 
 	//loops
 	// use for when you need to use a variable

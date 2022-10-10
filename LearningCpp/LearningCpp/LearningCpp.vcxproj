@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="Classes.cpp" />
     <ClCompile Include="Classes.h" />
+    <ClCompile Include="Conditions.cpp" />
     <ClCompile Include="Functions.cpp" />
     <ClCompile Include="LeanDebug.cpp" />
     <ClCompile Include="LearnHeaders.cpp" />
