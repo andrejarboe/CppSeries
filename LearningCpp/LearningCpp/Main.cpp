@@ -29,6 +29,8 @@ void MultiplyAndLog(int a, int b) {
 void Pointers();
 void References();
 void PlayerClass();
+void enityFunction();
+
 
 
 class ConsoleLog {
@@ -234,6 +236,7 @@ int main() {
 	consoleLog.Info("Hello");
 
 
+	enityFunction();
 
 	//wait for enter
 	std::cin.get();
