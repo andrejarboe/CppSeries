@@ -8,6 +8,7 @@
 //preprocessor
 #include <iostream>
 #include "Log.h"
+//#include "References.cpp"
 using namespace std;
 
 //Have to tell compiler that Log function exist with a declaration
@@ -25,6 +26,9 @@ void MultiplyAndLog(int a, int b) {
 	int result = Multiply(a, b);
 	std::cout << result << std::endl;
 }
+
+void References();
+
 
 int main() {
 	/*
@@ -118,7 +122,7 @@ int main() {
 
 
 
-	//Condidtions
+	//Conditions
 	int x = 5;
 	// check if 2 ints are equal 
 	bool comparisonReslt = x == 5;
@@ -135,7 +139,7 @@ int main() {
 		Log("y = 0");
 
 	//loops
-	// use foor wen you need to use a variable
+	// use for when you need to use a variable
 	//	do the loop a countable number of times 
 	//  or want to us the var in the loop
 	// variable declaration; condition; call this before the next iteration of loop:
@@ -189,6 +193,8 @@ int main() {
 	* 
 	*/
 
+
+	References();
 
 
 
