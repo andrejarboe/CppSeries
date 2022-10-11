@@ -51,6 +51,15 @@
     <ClCompile Include="Conditions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Loops.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnumeratedType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Log.h">

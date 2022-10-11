@@ -3,7 +3,9 @@
 #define LOG(x) std::cout << x << std::endl;
 
 void Pointers() {
-	LOG("****From Pointers.cpp*****");
+	LOG("*********************");
+	LOG("****Pointers.cpp*****");
+	LOG("*********************");
 
 	/*
 	* Raw pointers

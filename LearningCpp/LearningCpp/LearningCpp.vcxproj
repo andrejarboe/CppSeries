@@ -130,10 +130,13 @@
     <ClCompile Include="Classes.cpp" />
     <ClCompile Include="Classes.h" />
     <ClCompile Include="Conditions.cpp" />
+    <ClCompile Include="EnumeratedType.cpp" />
     <ClCompile Include="Functions.cpp" />
     <ClCompile Include="LeanDebug.cpp" />
     <ClCompile Include="LearnHeaders.cpp" />
     <ClCompile Include="Log.cpp" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="Loops.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Pointers.cpp" />
     <ClCompile Include="References.cpp" />

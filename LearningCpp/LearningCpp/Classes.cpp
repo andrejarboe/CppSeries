@@ -1,3 +1,6 @@
+#include <iostream>
+#define LOG(x) std::cout << x << std::endl;
+
 /*
 * classes are a style of writing your code
 * classes are for object oriented code
@@ -6,8 +9,8 @@
 
 class Player {
 public:
-	int x, y;
-	int speed;
+	int x = 5, y = 4;
+	int speed = 1;
 
 	// a method is a function inside of a class
 	void Move(int xa, int ya) {
@@ -17,9 +20,18 @@ public:
 };
 
 void PlayerClass() {
+	LOG("***************");
+	LOG("***Class.cpp***");
+	LOG("***************");
+
 	Player player;
 
-	player.Move(1, -1);
+	player.Move(5, -1);
+
+	LOG("Player.x: ");
+	LOG(player.x);
+	LOG("Player.y: ");
+	LOG(player.y);
 }
 
 void Move(Player& player, int xa, int ya) {
@@ -35,7 +47,6 @@ void Move(Player& player, int xa, int ya) {
 * use structs for plain old data/vars, example:
 *	vector class
 * use class when you have inheritance 
-*	
 */
 
 struct Vec {
