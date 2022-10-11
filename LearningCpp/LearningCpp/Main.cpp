@@ -24,6 +24,7 @@ void PlayerClass();
 void Logger();
 void enityFunction();
 void EnumeratedType();
+void LearnContsructors();
 
 
 
@@ -41,6 +42,7 @@ int main() {
 	Logger();
 	enityFunction();
 	EnumeratedType();
+	LearnContsructors();
 
 	//wait for enter
 	std::cin.get();

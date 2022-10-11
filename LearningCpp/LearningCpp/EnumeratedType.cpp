@@ -22,8 +22,9 @@ void EnumeratedType(){
 
 	Example value = B;
 
-	if ( value == 1 ) {
+	if ( value == 6 ) {
 		// Do something here
+		LOG("This is the Enumerated Type. It works!");
 	}
 
 }
