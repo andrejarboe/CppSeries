@@ -27,7 +27,7 @@ void EnumeratedType();
 void LearnContsructors();
 void  LearnDestructors();
 void LearnInheritance();
-
+void LearnVirtualFunctions();
 
 
 int main() {
@@ -46,6 +46,7 @@ int main() {
 	LearnContsructors();
 	LearnDestructors();
 	LearnInheritance();
+	LearnVirtualFunctions();
 
 	//wait for enter
 	std::cin.get();
