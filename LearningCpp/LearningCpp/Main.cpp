@@ -25,6 +25,7 @@ void Logger();
 void enityFunction();
 void EnumeratedType();
 void LearnContsructors();
+void  LearnDestructors();
 
 
 
@@ -43,6 +44,7 @@ int main() {
 	enityFunction();
 	EnumeratedType();
 	LearnContsructors();
+	LearnDestructors();
 
 	//wait for enter
 	std::cin.get();
