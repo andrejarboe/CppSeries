@@ -66,6 +66,9 @@
     <ClCompile Include="Destructors.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LearnInheritance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Log.h">

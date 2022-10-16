@@ -26,7 +26,7 @@ void enityFunction();
 void EnumeratedType();
 void LearnContsructors();
 void  LearnDestructors();
-
+void LearnInheritance();
 
 
 
@@ -45,6 +45,7 @@ int main() {
 	EnumeratedType();
 	LearnContsructors();
 	LearnDestructors();
+	LearnInheritance();
 
 	//wait for enter
 	std::cin.get();
