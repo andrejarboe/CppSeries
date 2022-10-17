@@ -78,6 +78,9 @@
     <ClCompile Include="LearnVisibility.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LearnArrays.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Log.h">
