@@ -5,6 +5,18 @@
 #define LOG(x) std::cout << x << std::endl;
 
 
+/*
+* Why use it
+* when you mark something as private you are saying 
+* do not use there anywhere else
+* example:
+*	if you change x position of a button 
+*	the button might have to be re rendered for the effects top take place
+*	so just make a method that can access the position and refresh 
+*	and make that public
+*/
+
+
 //class default visibility is private 
 class Entity {
 private: 
