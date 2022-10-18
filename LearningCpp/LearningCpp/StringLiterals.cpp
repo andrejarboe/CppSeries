@@ -9,12 +9,26 @@ void StringLiterals() {
 	LOG("***StringLiterals.cpp***");
 	LOG("************************");
 
+	/*
+	* String literal are always in read only
+	*/
+
 
 	// enables s-suffix for std::string literals
 	using namespace std::string_literals; 
 	//put the strings together
 	//the s is a function
 	std::string name0 = "Andre"s + " hello";
+
+	//ignore escape characters
+	// R stands for raw
+	const char* example = R"(Line1
+
+	Line2
+	Line3
+	Line4)";
+
+	std::cout << example << std::endl;
 
 	int nameSize = 8;
 	//bad code:
