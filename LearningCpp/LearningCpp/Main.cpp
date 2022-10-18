@@ -31,6 +31,7 @@ void LearnVirtualFunctions();
 void LearnInterfaces();
 void LearnVisibility();
 void LearnArrays();
+void LearnStrings();
 
 
 int main() {
@@ -53,6 +54,7 @@ int main() {
 	LearnInterfaces();
 	LearnVisibility();
 	LearnArrays();
+	LearnStrings();
 
 	//wait for enter
 	std::cin.get();

@@ -139,6 +139,7 @@
     <ClCompile Include="LearnHeaders.cpp" />
     <ClCompile Include="LearnInheritance.cpp" />
     <ClCompile Include="LearnInterfaces.cpp" />
+    <ClCompile Include="LearnStrings.cpp" />
     <ClCompile Include="LearnVirtual Functions.cpp" />
     <ClCompile Include="LearnVisibility.cpp" />
     <ClCompile Include="Log.cpp" />
