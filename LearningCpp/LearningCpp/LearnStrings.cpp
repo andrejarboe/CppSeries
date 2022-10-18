@@ -35,5 +35,4 @@ void LearnStrings() {
 	bool contains = name3.find("dre") != std::string::npos;
  	std::cout << name3.size() << std::endl;
 
-
 }
