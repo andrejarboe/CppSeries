@@ -32,6 +32,7 @@ void LearnInterfaces();
 void LearnVisibility();
 void LearnArrays();
 void LearnStrings();
+void StringLiterals();
 
 
 int main() {
@@ -55,6 +56,7 @@ int main() {
 	LearnVisibility();
 	LearnArrays();
 	LearnStrings();
+	StringLiterals();
 
 	//wait for enter
 	std::cin.get();

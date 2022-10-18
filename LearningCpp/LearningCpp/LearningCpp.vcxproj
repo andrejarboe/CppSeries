@@ -150,6 +150,7 @@
     <ClCompile Include="References.cpp" />
     <ClCompile Include="Sizes.cpp" />
     <ClCompile Include="Static.cpp" />
+    <ClCompile Include="StringLiterals.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Log.h" />
