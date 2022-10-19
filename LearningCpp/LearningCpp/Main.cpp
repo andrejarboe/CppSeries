@@ -33,6 +33,7 @@ void LearnVisibility();
 void LearnArrays();
 void LearnStrings();
 void StringLiterals();
+void ConstKeyword();
 
 
 int main() {
@@ -57,6 +58,7 @@ int main() {
 	LearnArrays();
 	LearnStrings();
 	StringLiterals();
+	ConstKeyword();
 
 	//wait for enter
 	std::cin.get();

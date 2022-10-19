@@ -130,6 +130,7 @@
     <ClCompile Include="Classes.cpp" />
     <ClCompile Include="Classes.h" />
     <ClCompile Include="Conditions.cpp" />
+    <ClCompile Include="ConstKeyWord.cpp" />
     <ClCompile Include="Destructors.cpp" />
     <ClCompile Include="EnumeratedType.cpp" />
     <ClCompile Include="Functions.cpp" />
