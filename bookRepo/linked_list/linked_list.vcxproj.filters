@@ -15,18 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="linked_list.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Book.cpp">
+    <ClCompile Include="SexyLady.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BookType.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Book.h">
+    <ClInclude Include="SexyLady.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

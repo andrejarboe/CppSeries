@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 
-enum BootType { UNDECIDED, FICTION, NONFICTION };
+enum BooKType { UNDECIDED, FICTION, NONFICTION };
 
 /*
 * Parallel array pops out a string for each book type - use the book type as an index 
